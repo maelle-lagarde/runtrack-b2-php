@@ -11,4 +11,15 @@ $student = findOneStudent($studentId);
 
 var_dump($student);
 
+$gradeId = 2;
+$grade = findOneGrade($gradeId);
+
+var_dump($grade);
+
+$floorId = 1;
+$floor = findOneGrade($floorId);
+
+$roomId = 4;
+$room = findOneRoom($roomId);
+
 ?>
